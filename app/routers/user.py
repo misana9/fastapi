@@ -3,7 +3,6 @@ from .. import schemas,utils,models
 from fastapi import status,HTTPException,Depends,APIRouter
 from ..database import get_db
 from sqlalchemy.orm import Session
-from ..oauth2 import verify_token
 
 router = APIRouter(
     prefix="/user",
