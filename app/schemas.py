@@ -45,7 +45,7 @@ class UserLogin(BaseModel):
     password:str
 
 class token(BaseModel):
-    token : str
+    access_token : str
     token_type : str
 
 class tokenData(BaseModel):
